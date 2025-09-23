@@ -1,0 +1,153 @@
+{
+  "name": "Fareeha Almas",
+  "tagline": "Researcher \u2014 Quantum/Accelerator Physics & ML",
+  "email": "fareeha.alm@gmail.com",
+  "location": "Brisbane, Australia",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/fareehaalmas"
+    },
+    {
+      "label": "CV (PDF)",
+      "url": "CV.pdf"
+    }
+  ],
+  "about": "I work at the intersection of quantum/accelerator physics and machine learning. My recent work includes differentiable modeling of beam position monitors (BPMs), Bayesian experimental design with Fisher information, and open-source contributions to accelerator beam dynamics toolchains.",
+  "education": [
+    {
+      "degree": "M.Sc. in Physics (ongoing)",
+      "institution": "The University of Queensland",
+      "year": "\u2014",
+      "details": "Thesis with UQ\u2013ANSTO on differentiable BPM modeling & Bayesian experimental design"
+    },
+    {
+      "degree": "B.Tech. in Electrical & Electronics Engineering (Minor in Physics)",
+      "institution": "Kakatiya Institute of Technology and Science, Warangal",
+      "year": "2018\u20132022",
+      "details": ""
+    }
+  ],
+  "experience": [
+    {
+      "role": "Research Assistant",
+      "org": "The University of Queensland",
+      "period": "Ongoing",
+      "bullets": [
+        "Qudits@UQ: Simulated/fabricated efficient grating couplers using FDTD (Lumerical, Tidy3D)."
+      ]
+    },
+    {
+      "role": "Business Operations Coordinator",
+      "org": "Quantum Ecosystems Technology Council of India (QETCI)",
+      "period": "Nov 2022 \u2013 Feb 2023",
+      "bullets": [
+        "Coordinated programs for training, incubation and investment in Quantum.",
+        "Designed membership services and community outreach for diverse demographics.",
+        "Led engagement for events incl. Quantum Science & Technology Hackathon 2022 (1600+ participants, 50+ mentors).",
+        "Wrote science communication articles (e.g., Quantum ML, Clifford gates)."
+      ]
+    },
+    {
+      "role": "Education Curriculum Disruptor Fellow; Marketing & Innovation Team Lead; MarComm Group Lead",
+      "org": "DeepThought Edutech Ventures",
+      "period": "Feb \u2013 May 2021",
+      "bullets": [
+        "Developed Physics/Math curricula using DeepTech content engines.",
+        "Drove zero-to-one innovations grounded in Socratic learning and MBO principles."
+      ]
+    },
+    {
+      "role": "Research Intern",
+      "org": "Benzaiten Advisors",
+      "period": "Jul 2021 \u2013 Feb 2023",
+      "bullets": [
+        "Analyzed quantum-technology impact areas with STECH\u2011IMPACT framework; authored reports with ethics lens."
+      ]
+    }
+  ],
+  "skills": [
+    "C",
+    "C++",
+    "Java",
+    "Python",
+    "MATLAB",
+    "Tidy3D",
+    "Lumerical",
+    "Cheetah (beam dynamics)",
+    "Finite-Difference Time-Domain (FDTD)",
+    "Bayesian Experimental Design",
+    "Fisher Information",
+    "Scientific Writing",
+    "Data Analysis"
+  ],
+  "publications": [
+    {
+      "title": "Demonstrating a Fisher Information based method for optimizing BPM placements in AS2",
+      "authors": "Fareeha Almas, Tessa Charles, Frank Zhang, Benjamin Pope",
+      "venue": "Submitted to International Particle Accelerator Conference (IPAC) 2025",
+      "links": [
+        {
+          "label": "Manuscript (Drive)",
+          "url": "https://drive.google.com/file/d/1t0_GSW6BH4wL4tkkQ37bQ8NG5Vv3mRTd/view?usp=sharing"
+        }
+      ],
+      "notes": "Preprint/manuscript under submission"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Differentiable BPM Modeling & Optimal Placement (UQ\u2013ANSTO Masters)",
+      "summary": "End\u2011to\u2011end differentiable BPM model with Fisher\u2011information\u2011driven placement for AS2; contributions to Cheetah (sextupoles).",
+      "thumb": "assets/placeholder.svg",
+      "links": [
+        {
+          "label": "Slides/PDF (add)",
+          "url": "projects/masters_bpm.pdf"
+        },
+        {
+          "label": "Code (Cheetah contribution)",
+          "url": "#"
+        }
+      ],
+      "tags": [
+        "Beam Dynamics",
+        "Bayesian Design",
+        "Fisher Information"
+      ],
+      "highlight": true
+    },
+    {
+      "title": "Entanglement Purification under Depolarising/Pauli Noise",
+      "summary": "Simulation of purification circuits; collaboration with Dr. Matthew Winnel.",
+      "thumb": "assets/placeholder.svg",
+      "links": [
+        {
+          "label": "Notebook (add)",
+          "url": "projects/entanglement_purification.ipynb"
+        }
+      ],
+      "tags": [
+        "Quantum Information",
+        "Noise Models"
+      ],
+      "highlight": false
+    },
+    {
+      "title": "UAV Stability via Root\u2011Locus Control",
+      "summary": "Modeled civil UAV stability derivatives and demonstrated root\u2011locus based control using real\u2011time transfer functions via FOMCON & DATCOM.",
+      "thumb": "assets/placeholder.svg",
+      "links": [
+        {
+          "label": "Report (PDF, add)",
+          "url": "projects/uav_root_locus.pdf"
+        }
+      ],
+      "tags": [
+        "Control",
+        "Aerospace"
+      ],
+      "highlight": false
+    }
+  ]
+}
