@@ -1,6 +1,6 @@
 
 async function loadProfile(){
-  const res = await fetch("/profile.json");
+  const res = await fetch("profile.json?v=20250923");
   const p = await res.json();
 
   // Header
