@@ -1,0 +1,38 @@
+
+:root{
+  --bg:#0b0f19; --panel:#111827; --muted:#a7b0c0; --fg:#e5e7eb; --accent:#7dd3fc; --pill:#1f2937;
+  --max:1000px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:var(--max);margin:auto;padding:24px}
+nav{position:sticky;top:0;background:rgba(11,15,25,.7);backdrop-filter:saturate(160%) blur(8px);border-bottom:1px solid #1f2937;z-index:10}
+.nav-inner{display:flex;gap:16px;align-items:center;justify-content:space-between;max-width:var(--max);margin:auto;padding:12px 24px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .name{font-weight:700;font-size:18px}
+.brand .tagline{color:var(--muted);font-size:14px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:var(--pill);border:1px solid #263143}
+.btn:hover{transform:translateY(-1px)}
+.header{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center;padding:40px 0;border-bottom:1px solid #1f2937}
+h1{font-size:40px;margin:0 0 8px}
+h2{font-size:22px;margin:32px 0 12px}
+p{margin:8px 0;color:#cbd5e1}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid #1f2937;border-radius:16px;overflow:hidden}
+.card .pad{padding:16px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{padding:6px 10px;background:var(--pill);border:1px solid #263143;border-radius:999px;font-size:12px;color:#cbd5e1}
+.footer{margin-top:40px;padding:24px;color:var(--muted);border-top:1px solid #1f2937;text-align:center}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+section{padding:24px 0}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.link-row{display:flex;flex-wrap:wrap;gap:10px}
+.pub{border-left:3px solid #263143;padding-left:12px;margin:8px 0}
+.meta{color:var(--muted);font-size:14px}
+.figure{aspect-ratio:16/9;background:#0f172a;display:grid;place-items:center}
+.search{display:flex;gap:8px;margin:0 0 12px}
+input[type="search"]{flex:1;background:#0f172a;border:1px solid #263143;border-radius:10px;padding:10px;color:var(--fg)}
+.small{font-size:13px;color:var(--muted)}
+@media (max-width:860px){.header{grid-template-columns:1fr}}
