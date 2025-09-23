@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Portfolio · Research Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <div class="brand">
+        <div style="width:36px;height:36px;border-radius:12px;background:#0f172a;border:1px solid #263143;display:grid;place-items:center">🧪</div>
+        <div>
+          <div class="name" id="nav-name">Your Name</div>
+          <div class="tagline" id="nav-tagline"></div>
+        </div>
+      </div>
+      <div class="link-row" id="top-links"></div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1 id="hero-title">Your Name</h1>
+        <p id="hero-tagline"> · Research Areas</p>
+        <p id="hero-about">About text…</p>
+        <div class="hero-actions">
+          <a class="btn" id="email-link" href="#">📫 Email</a>
+          <a class="btn" href="#projects">🧪 Projects</a>
+          <a class="btn" href="#publications">📄 Publications</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="figure"><span class="small">Drop a headshot here (docs/assets/headshot.jpg)</span></div>
+      </div>
+    </header>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="cards" id="edu-cards"></div>
+    </section>
+
+    <section id="experience">
+      <h2>Research & Experience</h2>
+      <div class="cards" id="exp-cards"></div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="pills" id="skills-pills"></div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div id="pub-list"></div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects & Demos</h2>
+      <div class="search">
+        <input type="search" id="project-search" placeholder="Filter projects by title or tag…"/>
+      </div>
+      <div class="cards" id="project-cards"></div>
+      <p class="small">Add PDFs, PPTX, and notebooks under <code>docs/projects/</code>, or link to external resources (nbviewer, GitHub, etc.).</p>
+    </section>
+
+    
+    <section id="awards">
+      <h2>Awards & Scholarships</h2>
+      <ul id="awards-list"></ul>
+    </section>
+
+    <section id="affiliations">
+      <h2>Professional Affiliations</h2>
+      <ul id="affiliations-list"></ul>
+    </section>
+
+    <section id="talks">
+      <h2>Invited Talks & Visits</h2>
+      <ul id="talks-list"></ul>
+    </section>
+
+    <footer class="footer">
+      <div id="footer-meta">© <span id="year"></span> Your Name</div>
+    </footer>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
