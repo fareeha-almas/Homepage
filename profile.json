@@ -13,13 +13,13 @@
       "url": "CV.pdf"
     }
   ],
-  "about": "I work at the intersection of quantum/accelerator physics and machine learning. My recent work includes differentiable modeling of beam position monitors (BPMs), Bayesian experimental design with Fisher information, and open-source contributions to accelerator beam dynamics toolchains.",
+  "about": "I work at the intersection of accelerator physics and machine learning. Current interests: differentiable beam dynamics, Bayesian experimental design with Fisher information, and practical tools for reproducible research.",
   "education": [
     {
       "degree": "M.Sc. in Physics (ongoing)",
       "institution": "The University of Queensland",
       "year": "\u2014",
-      "details": "Thesis with UQ\u2013ANSTO on differentiable BPM modeling & Bayesian experimental design"
+      "details": "UQ\u2013ANSTO collaboration on differentiable BPM modeling & Bayesian experimental design"
     },
     {
       "degree": "B.Tech. in Electrical & Electronics Engineering (Minor in Physics)",
@@ -31,10 +31,10 @@
   "experience": [
     {
       "role": "Research Assistant",
-      "org": "The University of Queensland",
+      "org": "The University of Queensland (Qudits@UQ)",
       "period": "Ongoing",
       "bullets": [
-        "Qudits@UQ: Simulated/fabricated efficient grating couplers using FDTD (Lumerical, Tidy3D)."
+        "Simulating and fabricating efficient grating couplers using FDTD solvers (Lumerical, Tidy3D)."
       ]
     },
     {
@@ -43,18 +43,18 @@
       "period": "Nov 2022 \u2013 Feb 2023",
       "bullets": [
         "Coordinated programs for training, incubation and investment in Quantum.",
-        "Designed membership services and community outreach for diverse demographics.",
-        "Led engagement for events incl. Quantum Science & Technology Hackathon 2022 (1600+ participants, 50+ mentors).",
-        "Wrote science communication articles (e.g., Quantum ML, Clifford gates)."
+        "Designed membership services and community outreach for multiple demographics.",
+        "Led engagement for Quantum Science & Technology Hackathon 2022 (1600+ participants, 50+ mentors).",
+        "Authored science communication articles (Quantum ML, Clifford gates)."
       ]
     },
     {
-      "role": "Education Curriculum Disruptor Fellow; Marketing & Innovation Team Lead; MarComm Group Lead",
+      "role": "Education Curriculum Disruptor Fellow; Team Lead (Marketing & Innovation); MarComm Group Lead",
       "org": "DeepThought Edutech Ventures",
       "period": "Feb \u2013 May 2021",
       "bullets": [
-        "Developed Physics/Math curricula using DeepTech content engines.",
-        "Drove zero-to-one innovations grounded in Socratic learning and MBO principles."
+        "Developed Physics/Math curricula leveraging DeepTech content engines and Socratic learning.",
+        "Drove zero\u2011to\u2011one innovations guided by the Feynman technique and MBO."
       ]
     },
     {
@@ -62,7 +62,7 @@
       "org": "Benzaiten Advisors",
       "period": "Jul 2021 \u2013 Feb 2023",
       "bullets": [
-        "Analyzed quantum-technology impact areas with STECH\u2011IMPACT framework; authored reports with ethics lens."
+        "Analyzed quantum\u2011tech impact with the STECH\u2011IMPACT framework and ethics\u2011aware reporting."
       ]
     }
   ],
@@ -75,7 +75,7 @@
     "Tidy3D",
     "Lumerical",
     "Cheetah (beam dynamics)",
-    "Finite-Difference Time-Domain (FDTD)",
+    "FDTD",
     "Bayesian Experimental Design",
     "Fisher Information",
     "Scientific Writing",
@@ -88,26 +88,26 @@
       "venue": "Submitted to International Particle Accelerator Conference (IPAC) 2025",
       "links": [
         {
-          "label": "Manuscript (Drive)",
+          "label": "Manuscript",
           "url": "https://drive.google.com/file/d/1t0_GSW6BH4wL4tkkQ37bQ8NG5Vv3mRTd/view?usp=sharing"
         }
       ],
-      "notes": "Preprint/manuscript under submission"
+      "notes": "UQ\u2013ANSTO collaboration; preprint/manuscript under submission"
     }
   ],
   "projects": [
     {
-      "title": "Differentiable BPM Modeling & Optimal Placement (UQ\u2013ANSTO Masters)",
-      "summary": "End\u2011to\u2011end differentiable BPM model with Fisher\u2011information\u2011driven placement for AS2; contributions to Cheetah (sextupoles).",
+      "title": "Differentiable BPM Modeling & Optimal Placement (Masters Thesis, UQ\u2013ANSTO)",
+      "summary": "Autodiff BPM model with Fisher\u2011information\u2011driven placement for AS2; sextupole implementation in Cheetah.",
       "thumb": "assets/placeholder.svg",
       "links": [
         {
-          "label": "Slides/PDF (add)",
+          "label": "Slides / PDF (add)",
           "url": "projects/masters_bpm.pdf"
         },
         {
-          "label": "Code (Cheetah contribution)",
-          "url": "#"
+          "label": "Manuscript",
+          "url": "https://drive.google.com/file/d/1t0_GSW6BH4wL4tkkQ37bQ8NG5Vv3mRTd/view?usp=sharing"
         }
       ],
       "tags": [
@@ -119,7 +119,7 @@
     },
     {
       "title": "Entanglement Purification under Depolarising/Pauli Noise",
-      "summary": "Simulation of purification circuits; collaboration with Dr. Matthew Winnel.",
+      "summary": "Simulation of purification circuits with Dr. Matthew Winnel; benchmarking under Pauli/depolarising noise.",
       "thumb": "assets/placeholder.svg",
       "links": [
         {
@@ -130,12 +130,11 @@
       "tags": [
         "Quantum Information",
         "Noise Models"
-      ],
-      "highlight": false
+      ]
     },
     {
-      "title": "UAV Stability via Root\u2011Locus Control",
-      "summary": "Modeled civil UAV stability derivatives and demonstrated root\u2011locus based control using real\u2011time transfer functions via FOMCON & DATCOM.",
+      "title": "Stability Analysis of UAVs by the Root\u2011Locus Method",
+      "summary": "Civil UAV stability derivatives + root\u2011locus control using real\u2011time transfer functions via FOMCON & DATCOM.",
       "thumb": "assets/placeholder.svg",
       "links": [
         {
@@ -146,8 +145,25 @@
       "tags": [
         "Control",
         "Aerospace"
-      ],
-      "highlight": false
+      ]
     }
+  ],
+  "awards": [
+    "2025 Student grants for Algebraic Combinatorics & Quantum Australia conferences (Brisbane).",
+    "2025 AINSE Travel Scholarship (AUD 1000).",
+    "2025 AINSE Pathway Scholarship (AUD 5000) towards Masters thesis.",
+    "2025 IPAC attendance grant (USD 1800).",
+    "2024 Chief Minister\u2019s Overseas Scholarship (INR 2,000,000) by Govt. of Telangana."
+  ],
+  "affiliations": [
+    "Vice President, UQ Optica Chapter (ongoing).",
+    "Member, University Network for Investing and Trading (UQ) (ongoing).",
+    "Programme Coordinator, WiE and Vice Chairperson, IEEE KITSW Student Branch (2020\u20132022)."
+  ],
+  "talks": [
+    "2024 Invited talk: Bayesian Experimental Design of Australian Synchrotron 2 beamlines \u2014 Australian Synchrotron, Melbourne.",
+    "2024 Talk: Squeezing via Dynamical Casimir Effect \u2014 Teach at the Beach Student Conference, UQ Optica Chapter.",
+    "2024 Fully funded research visit \u2014 ANSTO facility, Lucas Heights, Australia.",
+    "2024 Panelist: \u201cWomen in Quantum\u201d \u2014 invited by QETCI."
   ]
 }
