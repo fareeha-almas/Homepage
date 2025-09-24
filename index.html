@@ -49,6 +49,14 @@
       white-space:nowrap;   /* prevents word wrap inside a button */
       flex:0 0 auto;        /* don’t shrink into multiple lines */
     }
+    .headshot{
+      width:100%;
+      display:block;
+      aspect-ratio:1/1;      /* keeps it square */
+      object-fit:cover;      /* crops nicely */
+      border-bottom:1px solid #1f2937;
+    }
+
     @media (max-width:860px){.header{grid-template-columns:1fr}}
   </style>
 </head>
@@ -88,9 +96,9 @@
         </div>
       </div>
       <div class="card">
-        <div class="figure"><span class="small">Add a headshot as <code>docs/assets/headshot.jpg</code></span></div>
+        <img src="headshot.jpg" alt="Fareeha Almas headshot" class="headshot">
       </div>
-    </header>
+
 
     <!-- Education -->
     <section id="education">
