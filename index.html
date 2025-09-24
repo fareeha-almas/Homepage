@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Fareeha Almas · Research Portfolio</title>
+  <meta name="description" content="Research portfolio of Fareeha Almas — accelerator/quantum physics & machine learning.">
+  <style>
+    :root{
+      --bg:#0b0f19; --panel:#111827; --muted:#a7b0c0; --fg:#e5e7eb; --accent:#7dd3fc; --pill:#1f2937;
+      --max:1000px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:var(--max);margin:auto;padding:24px}
+    nav{position:sticky;top:0;background:rgba(11,15,25,.7);backdrop-filter:saturate(160%) blur(8px);border-bottom:1px solid #1f2937;z-index:10}
+    .nav-inner{display:flex;gap:16px;align-items:center;justify-content:space-between;max-width:var(--max);margin:auto;padding:12px 24px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand .name{font-weight:700;font-size:18px}
+    .brand .tagline{color:var(--muted);font-size:14px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:var(--pill);border:1px solid #263143}
+    .btn:hover{transform:translateY(-1px)}
+    .header{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center;padding:40px 0;border-bottom:1px solid #1f2937}
+    h1{font-size:40px;margin:0 0 8px}
+    h2{font-size:22px;margin:32px 0 12px}
+    p{margin:8px 0;color:#cbd5e1}
+    .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+    .card{background:var(--panel);border:1px solid #1f2937;border-radius:16px;overflow:hidden}
+    .card .pad{padding:16px}
+    .pills{display:flex;flex-wrap:wrap;gap:8px}
+    .pill{padding:6px 10px;background:var(--pill);border:1px solid #263143;border-radius:999px;font-size:12px;color:#cbd5e1}
+    .footer{margin-top:40px;padding:24px;color:var(--muted);border-top:1px solid #1f2937;text-align:center}
+    .figure{aspect-ratio:1/1;background:#0f172a;display:grid;place-items:center}
+    .small{font-size:13px;color:var(--muted)}
+    .meta{color:var(--muted);font-size:14px}
+    ul{margin:8px 0 0 20px}
+    li{margin:6px 0}
+    .link-row{display:flex;flex-wrap:wrap;gap:10px}
+    @media (max-width:860px){.header{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <!-- Top Nav -->
+  <nav>
+    <div class="nav-inner">
+      <div class="brand">
+        <div style="width:36px;height:36px;border-radius:12px;background:#0f172a;border:1px solid #263143;display:grid;place-items:center">🧪</div>
+        <div>
+          <div class="name">Fareeha Almas</div>
+          <div class="tagline">Researcher — Accelerator/Quantum Physics & ML</div>
+        </div>
+      </div>
+      <div class="link-row">
+        <a class="btn" href="#projects">🧪 Projects</a>
+        <a class="btn" href="#publications">📄 Publications</a>
+        <a class="btn" href="CV.pdf" target="_blank" rel="noopener">📝 CV (PDF)</a>
+        <a class="btn" href="mailto:fareeha.alm@gmail.com">📫 Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/fareehaalmas" target="_blank" rel="noopener">in LinkedIn</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- Hero -->
+    <header class="header">
+      <div>
+        <h1>Fareeha Almas</h1>
+        <p class="meta">Brisbane, Australia · <a href="mailto:fareeha.alm@gmail.com">fareeha.alm@gmail.com</a></p>
+        <p>“To wield a juxtaposition of creativity, imagination and the ever-evolving fundamentals of Mathematics and Physics to produce research that transforms lives”.</p>
+        <p>I work at the intersection of accelerator physics and machine learning. Current interests: differentiable beam dynamics, Bayesian experimental design with Fisher information, and practical tools for reproducible research.</p>
+        <div class="link-row" style="margin-top:10px">
+          <a class="btn" href="#education">🎓 Education</a>
+          <a class="btn" href="#experience">🧭 Experience</a>
+          <a class="btn" href="#awards">🏅 Awards</a>
+          <a class="btn" href="#talks">🎙️ Talks</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="figure"><span class="small">Add a headshot as <code>docs/assets/headshot.jpg</code></span></div>
+      </div>
+    </header>
+
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="cards">
+        <div class="card"><div class="pad">
+          <div style="font-weight:600">M.Sc. in Physics (ongoing)</div>
+          <div class="meta">The University of Queensland · Brisbane, Australia</div>
+          <p>UQ–ANSTO thesis on differentiable Beam Position Monitor (BPM) modeling & Bayesian Experimental Design. Supervisors: Dr. Alex Stilgoe (UQ), Dr. Benjamin Pope (Macquarie), Dr. Tessa Charles & Dr. Frank Zhang (ANSTO).</p>
+        </div></div>
+        <div class="card"><div class="pad">
+          <div style="font-weight:600">B.Tech. in Electrical & Electronics Engineering (Minor in Physics)</div>
+          <div class="meta">Kakatiya Institute of Technology and Science, Warangal · Aug 2018 – Jun 2022</div>
+        </div></div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Work & Research Experience</h2>
+      <div class="cards">
+        <div class="card"><div class="pad">
+          <div style="font-weight:600">Research Assistant</div>
+          <div class="meta">Qudits@UQ, The University of Queensland · Ongoing</div>
+          <ul>
+            <li>Working with A/Prof. Jacqui Romero and Dr. Daniel Peace on simulating & fabricating efficient grating couplers using FDTD solvers (Lumerical, Tidy3D).</li>
+          </ul>
+        </div></div>
+
+        <div class="card"><div class="pad">
+          <div style="font-weight:600">Business Operations Coordinator</div>
+          <div class="meta">Quantum Ecosystems Technology Council of India (QETCI) · Nov 2022 – Feb 2023</div>
+          <ul>
+            <li>Coordinated programs on training, incubation and investment in Quantum.</li>
+            <li>Designed membership services and community outreach for diverse demographics.</li>
+            <li>Led stakeholder engagement for the Quantum Science & Technology Hackathon 2022 (1600+ participants, 50+ mentors).</li>
+            <li>Authored science communication articles (Quantum ML, Clifford gates, etc.).</li>
+          </ul>
+        </div></div>
+
+        <div class="card"><div class="pad">
+          <div style="font-weight:600">Education Curriculum Disruptor Fellow; Team Lead (Marketing & Innovation); MarComm Group Lead</div>
+          <div class="meta">DeepThought Edutech Ventures · Feb – May 2021</div>
+          <ul>
+            <li>Developed Physics/Math curricula using DeepTech content engines and Socratic learning.</li>
+            <li>Drove zero-to-one innovations guided by the Feynman technique and MBO.</li>
+          </ul>
+        </div></div>
+
+        <div class="card"><div class="pad">
+          <div style="font-weight:600">Research Intern</div>
+          <div class="meta">Benzaiten Advisors · Jul 2021 – Feb 2023</div>
+          <ul>
+            <li>Analyzed quantum-technology impact areas with the STECH-IMPACT framework; produced ethics-aware reports for diverse audiences.</li>
+          </ul>
+        </div></div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="pills">
+        <span class="pill">C</span><span class="pill">C++</span><span class="pill">Java</span><span class="pill">Python</span><span class="pill">MATLAB</span>
+        <span class="pill">Tidy3D</span><span class="pill">Lumerical</span><span class="pill">Cheetah (beam dynamics)</span>
+        <span class="pill">FDTD</span><span class="pill">Bayesian Experimental Design</span><span class="pill">Fisher Information</span>
+        <span class="pill">Scientific Writing</span><span class="pill">Data Analysis</span><span class="pill">Problem Solving</span>
+      </div>
+      <p class="small">Interpersonal: strong relationships via empathy, clear communication, and teamwork.</p>
+    </section>
+
+    <!-- Publications / Manuscripts -->
+    <section id="publications">
+      <h2>Publications & Manuscripts</h2>
+      <div class="card"><div class="pad">
+        <div><strong>Demonstrating a Fisher Information based method for optimizing BPM placements in AS2</strong></div>
+        <div class="meta">Fareeha Almas, Tessa Charles, Frank Zhang, Benjamin Pope · Submitted to IPAC 2025</div>
+        <div class="link-row" style="margin-top:8px">
+          <a class="btn" href="https://drive.google.com/file/d/1t0_GSW6BH4wL4tkkQ37bQ8NG5Vv3mRTd/view?usp=sharing" target="_blank" rel="noopener">Manuscript</a>
+        </div>
+      </div></div>
+    </section>
+
+    <!-- Projects & Demos -->
+    <section id="projects">
+      <h2>Projects & Demos</h2>
+      <div class="cards">
+        <div class="card"><div class="pad">
+          <div style="font-weight:700;margin-bottom:6px">Differentiable BPM Modeling & Optimal Placement (UQ–ANSTO Masters)</div>
+          <p>Autodiff BPM model with Fisher-information-driven placement for AS2; open-source sextupoles contribution to the differentiable accelerator code <em>Cheetah</em> (collaboration with colleagues in Germany).</p>
+          <div class="pills"><span class="pill">Beam Dynamics</span><span class="pill">Bayesian Design</span><span class="pill">Fisher Information</span></div>
+          <div class="link-row" style="margin-top:10px">
+            <a class="btn" href="projects/masters_bpm.pdf" target="_blank" rel="noopener">Slides / PDF</a>
+            <a class="btn" href="https://drive.google.com/file/d/1t0_GSW6BH4wL4tkkQ37bQ8NG5Vv3mRTd/view?usp=sharing" target="_blank" rel="noopener">Manuscript</a>
+          </div>
+        </div></div>
+
+        <div class="card"><div class="pad">
+          <div style="font-weight:700;margin-bottom:6px">Entanglement Purification under Depolarising/Pauli Noise</div>
+          <p>Collaboration with Dr. Matthew Winnel: simulated purification circuits and benchmarked performance under Pauli and depolarising noise channels.</p>
+          <div class="pills"><span class="pill">Quantum Information</span><span class="pill">Noise Models</span></div>
+          <div class="link-row" style="margin-top:10px">
+            <a class="btn" href="projects/entanglement_purification.ipynb" target="_blank" rel="noopener">Notebook</a>
+          </div>
+        </div></div>
+
+        <div class="card"><div class="pad">
+          <div style="font-weight:700;margin-bottom:6px">Stability Analysis of UAVs by the Root-Locus Method</div>
+          <p>Led a team modeling stability derivatives for civil UAVs; demonstrated root-locus based control using real-time transfer functions via FOMCON with DATCOM inputs.</p>
+          <div class="pills"><span class="pill">Control</span><span class="pill">Aerospace</span></div>
+          <div class="link-row" style="margin-top:10px">
+            <a class="btn" href="projects/uav_root_locus.pdf" target="_blank" rel="noopener">Report (PDF)</a>
+          </div>
+        </div></div>
+      </div>
+      <p class="small">Tip: place your files in <code>docs/projects/</code> with these names or change the links above.</p>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards">
+      <h2>Awards & Scholarships</h2>
+      <ul>
+        <li>2025 Student grants for Algebraic Combinatorics, Special Functions & Representation Theory (Brisbane) and Quantum Australia (Brisbane).</li>
+        <li>2025 AINSE Travel Scholarship — AUD 1,000.</li>
+        <li>2025 AINSE Pathway Scholarship — AUD 5,000 towards Masters thesis.</li>
+        <li>2025 Student grant — USD 1,800 for IPAC attendance.</li>
+        <li>2024 Chief Minister’s Overseas Scholarship — INR 2,000,000 (Govt. of Telangana).</li>
+      </ul>
+    </section>
+
+    <!-- Talks & Visits -->
+    <section id="talks">
+      <h2>Invited Talks & Visits</h2>
+      <ul>
+        <li>2024 Invited talk: Bayesian Experimental Design of Australian Synchrotron 2 beamlines — Australian Synchrotron, Clayton (Melbourne).</li>
+        <li>2024 Talk: Squeezing via Dynamical Casimir Effect — Teach at the Beach Student Conference (UQ Optica Chapter).</li>
+        <li>2024 Fully funded research visit — ANSTO facility, Lucas Heights, Australia.</li>
+        <li>2024 Panelist — “Women in Quantum”, invited by QETCI.</li>
+      </ul>
+    </section>
+
+    <!-- Affiliations -->
+    <section id="affiliations">
+      <h2>Professional Affiliations</h2>
+      <ul>
+        <li>Vice President, UQ Optica Chapter (ongoing).</li>
+        <li>Member, University Network for Investing and Trading (UQ) (ongoing).</li>
+        <li>Programme Coordinator, WiE & Vice Chairperson, IEEE KITSW Student Branch (2020–2022).</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:fareeha.alm@gmail.com">fareeha.alm@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/fareehaalmas" target="_blank" rel="noopener">linkedin.com/in/fareehaalmas</a></p>
+    </section>
+
+    <footer class="footer">
+      © <span id="year"></span> Fareeha Almas · <span class="small">This page is a single self-contained file (no JS/JSON).</span>
+    </footer>
+  </div>
+
+  <script>
+    // year stamp only (kept tiny, but you can remove this if you want zero JS)
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
